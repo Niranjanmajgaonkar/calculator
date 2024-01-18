@@ -10,7 +10,8 @@ document.querySelector("#display").value = string;
 
 let cal = (input) => {
   if (input === "=") {
-    string = eval(string);
+         string = eval(string);
+    
   } else if (input === "C" || input === 'backspace') {
     string = "";
   } else {
